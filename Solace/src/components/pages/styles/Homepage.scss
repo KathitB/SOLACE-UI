@@ -1,0 +1,704 @@
+// $primary: #6a5cff;
+// $primary-hover: #5848e5;
+// $text-dark: #1f1f1f;
+// $text-muted: #6b6b6b;
+// $border-light: #eaeaea;
+// $white: #ffffff;
+
+
+
+// .Navbar {
+//   width: 100%;
+//   height: 80px;
+// //   padding: 0 32px;
+// //   margin: 0 auto;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   background-color: $white;
+//   border-bottom: 1px solid $border-light;
+//   font-family: Poppins;
+
+
+//   .logo {
+//     display: flex;
+//     align-items: center;
+    
+
+//     img {
+//       height: 41.79px;
+//       width: 119.49px;
+//       cursor: pointer;
+//       padding: 0 100px;
+//       bottom: 40px;
+//     }
+//   }
+
+
+//   .links {
+//     display: flex;
+//     align-items: center;
+//     gap: 53px;
+//     list-style: none;
+//     margin: 0;
+//     padding: 0;
+
+//     .list {
+//       font-size: 14px;
+//       font-weight: 500;
+//       color: $text-dark;
+//       cursor: pointer;
+//       position: relative;
+//       transition: color 0.2s ease;
+
+//       &:hover {
+//         color: $primary;
+//       }
+
+    
+//       &::after {
+//         content: "";
+//         position: absolute;
+//         left: 0;
+//         bottom: -6px;
+//         width: 0;
+//         height: 2px;
+//         background-color: $primary;
+//         transition: width 0.25s ease;
+//       }
+
+//       &:hover::after {
+//         width: 100%;
+//       }
+//     }
+//   }
+
+//   .buttons {
+//     display: flex;
+//     align-items: center;
+//     gap: 15px;
+//     padding: 0 100px;
+
+//     .login-btn {
+//         width: 132px;
+//         height: 42px;
+//       padding: 8px 18px;
+//       border-radius: 5px;
+//       border: 1px solid $primary;
+//       background: transparent;
+//       color: $primary;
+//       font-size: 14px;
+//       cursor: pointer;
+//       transition: all 0.2s ease;
+
+//       &:hover {
+//         background-color: rgba($primary, 0.08);
+//       }
+//     }
+
+//     .demo-btn {
+//       padding: 8px 18px;
+//       width: 132px;
+//       height: 42px;
+//       border-radius: 5px;
+//       border: none;
+//       background-color: $primary;
+//       color: $white;
+//       font-size: 14px;
+//       cursor: pointer;
+//       transition: background-color 0.2s ease;
+
+//       &:hover {
+//         background-color: $primary-hover;
+//       }
+//     }
+//   }
+// }
+
+
+// // @media (max-width: 900px) {
+// //   .Navbar {
+// //     padding: 0 20px;
+
+// //     .links {
+// //       display: none; 
+// //     }
+// //   }
+// // }
+
+
+// .hero {
+//   position: relative;
+//   width: 100%;
+//   height: 700px;
+//   overflow: hidden;
+//   font-family: "Poppins", sans-serif;
+// }
+
+// .background-house {
+//   position: absolute;
+//   inset: 0; 
+//   z-index: 1;
+
+//   img {
+//     width: 100%;
+//     height: 431.95px;
+//     object-fit: cover; 
+//   }
+// }
+
+// .hero-content {
+//   position: relative;
+//   z-index: 2;
+//   max-width: 100%;
+//   padding-left  : 99px;
+//   padding-right: 517px;
+//   padding-top: 56.55px;
+//   color: #0a0a4a;
+// }
+
+// .notsubtitle {
+//   font-size: 32px;
+//   font-weight: 900;
+//   line-height: 1.2;
+//   margin-bottom: 16px;
+//   padding-right: 100px;
+// }
+
+// .subtitle {
+//   font-size: 16px;
+//   color: #555;
+//   margin-bottom: 20px;
+//   max-width: 480px;
+// }
+
+// .bigsubtitle {
+//   font-size: 18px;
+//   font-weight: 500;
+//   margin-bottom: 28px;
+// }
+
+
+// .book-consultation {
+//   padding: 12px 24px;
+//   background: #6a5cff;
+//   border: none;
+//   border-radius: 8px;
+//   color: white;
+//   font-size: 14px;
+//   font-weight: 500;
+//   cursor: pointer;
+
+//   &:hover {
+//     background: #5848e5;
+//   }
+// }
+
+
+// .people-image {
+//   position: absolute;
+//   right: 80px;
+//   bottom: 60px;
+//   z-index: 3;
+//   width: 571px;
+//   height:350px;
+//   padding-right: 80px;
+
+//   img {
+//     width: 550px;
+//     border-radius: 16px;
+//     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+//   }
+// }
+
+// .other{
+//   position: absolute;
+//   right: 700px;
+//   bottom: 160px;
+//   z-index: 3;
+//   width: 120px;
+//   height: 100px;
+//   padding-right: 200px;
+//   color:#0a0a4a;
+  
+// }
+
+// .other-mainline{
+//     display: inline-flex;
+//     // align-items: center;
+//     margin-left: 12px;
+//     // gap:1px;
+// }
+
+
+// // .arrow{
+// //     // padding-left:200px;
+// //     // padding-top: 100px;
+// //     // width: 330px;
+// // }
+
+// // @media (max-width: 768px) {
+// //   * {
+// //     box-sizing: border-box;
+// //   }
+// // }
+
+
+
+// /* =========================
+//    HAMBURGER ICON
+// ========================= */
+// .hamburger {
+//   display: none;
+//   cursor: pointer;
+
+//   img {
+//     width: 26px;
+//   }
+// }
+
+// /* =========================
+//    MOBILE MENU
+// ========================= */
+// .mobile-menu {
+//   position: fixed;
+//   top: 0;
+//   right: -100%;
+//   width: 80%;
+//   height: 100vh;
+//   background: #ffffff;
+//   z-index: 1000;
+//   padding: 24px;
+//   transition: right 0.35s ease;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// .mobile-menu.open {
+//   right: 0;
+// }
+
+// .mobile-header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+
+//   img {
+//     width: 100px;
+//   }
+
+//   .close {
+//     width: 22px;
+//     cursor: pointer;
+//   }
+// }
+
+// .mobile-menu ul {
+//   list-style: none;
+//   padding: 0;
+//   margin: 48px 0;
+// }
+
+// .mobile-menu li {
+//   font-size: 18px;
+//   font-weight: 500;
+//   margin-bottom: 24px;
+//   color: #0a0a4a;
+//   cursor: pointer;
+// }
+
+// /* Buttons inside mobile menu */
+// .mobile-buttons {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 12px;
+
+//   .login-btn,
+//   .demo-btn {
+//     width: 100%;
+//     height: 44px;
+//   }
+// }
+
+// /* =========================
+//    BACKDROP
+// ========================= */
+// .backdrop {
+//   position: fixed;
+//   inset: 0;
+//   background: rgba(0, 0, 0, 0.4);
+//   z-index: 999;
+// }
+
+// /* =========================
+//    RESPONSIVE NAVBAR SWITCH
+// ========================= */
+// @media (max-width: 768px) {
+//   .Navbar {
+//     padding: 16px;
+
+//     .links,
+//     .buttons {
+//       display: none;
+//     }
+//   }
+
+//   .hamburger {
+//     display: block;
+//   }
+// }
+
+/* =========================
+   VARIABLES
+========================= */
+$primary: #6a5cff;
+$primary-hover: #5848e5;
+$text-dark: #1f1f1f;
+$text-muted: #6b6b6b;
+$border-light: #eaeaea;
+$white: #ffffff;
+
+/* =========================
+   NAVBAR
+========================= */
+.Navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  border-bottom: 1px solid $border-light;
+  font-family: "Poppins", sans-serif;
+
+  .logo img {
+    height: 42px;
+    width: auto;
+    padding: 0 100px;
+  }
+
+  .links {
+    display: flex;
+    gap: 53px;
+    list-style: none;
+
+    .list {
+      font-size: 14px;
+      font-weight: 500;
+      color: $text-dark;
+      cursor: pointer;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    gap: 15px;
+    padding: 0 100px;
+
+    .login-btn {
+      width: 132px;
+      height: 42px;
+      border-radius: 5px;
+      border: 1px solid $primary;
+      background: transparent;
+      color: $primary;
+      cursor: pointer;
+    }
+
+    .demo-btn {
+      width: 132px;
+      height: 42px;
+      border-radius: 5px;
+      border: none;
+      background: $primary;
+      color: $white;
+      cursor: pointer;
+    }
+  }
+}
+
+/* =========================
+   HAMBURGER
+========================= */
+.hamburger {
+  display: none;
+  cursor: pointer;
+
+  img {
+    width: 26px;
+  }
+}
+
+/* =========================
+   MOBILE MENU
+========================= */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  height: 100vh;
+  background: #ffffff;
+  z-index: 1000;
+  padding: 24px;
+  transition: right 0.35s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu.open {
+  right: 0;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 100px;
+  }
+
+  .close {
+    width: 22px;
+    cursor: pointer;
+  }
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 48px 0;
+
+  li {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #0a0a4a;
+  }
+}
+
+.mobile-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  button {
+    height: 44px;
+    width: 100%;
+  }
+}
+
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+/* =========================
+   HERO (DESKTOP)
+========================= */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+// .background-house {
+//   position: absolute;
+//   inset: 0;
+//   z-index: 1;
+
+//   img {
+//     width: 100%;
+//     height: 432px;
+//     object-fit: cover;
+//   }
+// }
+
+.background-house {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: url("../../assets/solace_house.svg") center bottom / cover no-repeat;
+}
+
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 56px 517px 0 99px;
+  color: #0a0a4a;
+}
+
+.notsubtitle {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  max-width: 480px;
+}
+
+.bigsubtitle {
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+.book-consultation {
+  padding: 12px 24px;
+  background: $primary;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* =========================
+   PEOPLE IMAGE (DESKTOP)
+========================= */
+.people-image {
+  position: absolute;
+  right: 80px;
+  bottom: 60px;
+  z-index: 3;
+  width: 571px;
+
+  img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* =========================
+   INTRODUCING SOLACE (DESKTOP)
+========================= */
+.other {
+  position: absolute;
+  right: 700px;
+  bottom: 160px;
+  z-index: 3;
+  color: #0a0a4a;
+}
+
+.other-mainline {
+  display: inline-flex;
+  gap: 8px;
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 1024px) {
+  .Navbar {
+    padding: 0 24px;
+
+    .links,
+    .buttons {
+      display: none;
+    }
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hero-content {
+    padding: 40px 300px 0 32px;
+  }
+
+  .people-image {
+    width: 420px;
+    right: 24px;
+  }
+
+  .other {
+    right: 420px;
+  }
+}
+
+/* =========================
+   MOBILE (FINAL FIX)
+========================= */
+@media (max-width: 768px) {
+
+  // .hero {
+  //   height: auto;
+  //   display: flex;
+  //   flex-direction: column;
+  //   overflow: visible;
+  // }
+
+  // .background-house {
+  //   position: static;
+
+  //   img {
+  //     height: auto;
+  //   }
+  // }
+
+  // .hero-content {
+  //   padding: 24px 16px;
+  // }
+
+  .background-house {
+    background: url("../../assets/house-isolated-field.svg") center center / cover no-repeat;
+    height: 480px;   // same as your screenshot
+  }
+
+  .hero {
+    height: auto;
+    min-height: 520px;
+  }
+
+  .hero-content {
+    padding: 32px 16px;
+  }
+
+  .notsubtitle {
+    font-size: 22px;
+  }
+
+  .subtitle,
+  .bigsubtitle {
+    font-size: 14px;
+  }
+
+  .book-consultation {
+    width: 60%;
+  }
+
+  .people-image {
+    position: static;
+    width: 100%;
+    padding: 16px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .other {
+    position: static;
+    padding: 16px;
+    margin-top: 16px;
+  }
+
+  .other-mainline {
+    font-size: 18px;
+  }
+}
+
